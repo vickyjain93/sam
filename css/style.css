@@ -1,0 +1,88 @@
+body{
+  margin-top:70px;
+  font-size:16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:Poppins;
+}
+
+p{
+  font-family:Roboto;
+}
+
+.navbar-default{
+  background:#fff;
+  border:0;
+  font-family:Poppins;
+}
+
+.navbar-brand{
+    background: url("../img/logo.PNG") no-repeat;
+        width: 150px;
+    height: 110px;
+    background-size: 150px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.navbar-right{
+    margin-top: 20px;
+}
+.fan-img{
+    background: url("../img/Glossy-Ivory.jpg") no-repeat;
+}
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+#showcase img{
+  width:90%;
+  margin-left:60px;
+}
+
+#showcase .showcase-right{
+  margin-top:90px;
+}
+
+#fan,#appliance,#elements,#contact{
+        border: 2px solid goldenrod;
+     height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/Glossy-Ivory.jpg);
+    background-color: #000;
+    display: table;
+    width: 100%;
+
+}
+
+#elements,#contact{
+        background: url(../img/image2.jpg) #fff no-repeat;
+}
+
+#info1 .info-right{
+  margin-top:90px;
+}
+
+#info2{
+  margin:20px 0 60px 0;
+}
+
+#contact{
+  background:url(../img/image3.png);
+  padding:40px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+h3{
+    font-size: 50px;
+    color: goldenrod;
+    text-align: center;
+    vertical-align: middle;
+}
+footer{
+  padding:30px;
+}
