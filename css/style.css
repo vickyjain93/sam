@@ -11,6 +11,9 @@ p{
   font-family:Roboto;
 }
 
+nav.navbar{
+margin:0;
+}
 .navbar-default{
   background:#fff;
   border:0;
@@ -20,7 +23,7 @@ p{
 .navbar-brand{
     background: url("../img/logo.PNG") no-repeat;
         width: 150px;
-    height: 110px;
+    height: 80px;
     background-size: 150px;
     margin-top: 10px;
     padding: 0;
@@ -29,9 +32,7 @@ p{
 .navbar-right{
     margin-top: 20px;
 }
-.fan-img{
-    background: url("../img/Glossy-Ivory.jpg") no-repeat;
-}
+
 #showcase h1{
   font-size:50px;
   margin-bottom:20px;
@@ -50,15 +51,16 @@ p{
      height: 100vh;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(../img/Glossy-Ivory.jpg);
+    background-image: url(../img/fan.jpg);
     background-color: #000;
     display: table;
     width: 100%;
-
 }
-
-#elements,#contact{
-        background: url(../img/image2.jpg) #fff no-repeat;
+#appliance{
+      background-image:url("../img/heating-elements.jpg");
+}
+#elements{
+      background-image:url("../img/home-app.jpg");
 }
 
 #info1 .info-right{
@@ -95,7 +97,7 @@ section#contact {
     background-repeat: no-repeat;
 }
 section {
-    padding: 30px 0PX;
+    padding: 90px 0PX;
 }
 section#contact .section-heading {
     color: white;
