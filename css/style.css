@@ -14,8 +14,8 @@ button{
     background: #3873b0;
     border: none;
     color: #FFF;
-    padding: 5px 10px;
-    border-radius:3px; 
+    padding: 5px 20px;
+    border-radius: 5px; 
 }
 nav.navbar{
 margin:0;
@@ -199,9 +199,16 @@ section#contact .text-danger {
     width: 100%;
 }
 .card{
-    border: 1px solid #000;
     padding: 10px;
 }
 #fan-category img{
-    width: 180px;
+       width: 299px;
+    border: 1px solid;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+#fan-category p{
+	    font-family: cursive;
+    margin-top: 10px;
+    text-decoration: underline;
 }
